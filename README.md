@@ -31,9 +31,40 @@ Machine learning enables decision makers to predict customer churn using company
 
 # Data preparation 
 
-### Code Used:
+### -Code Used:
+* Python Version : 3.7.6
+* Packages : Pandas, Numpy, Sklearn, Matplotlib, Seaborn
+### -Importing Dataset
+### -Inspect The Initial Condition of Data
 
-* Python Version	: 3.7.6
-* Packages		: Pandas, Numpy, Sklearn, Matplotlib, and Seaborn
+# Data Cleansing
+* Missing Values Checking and Handling
+* Duplicates Checking
+* Anomali and Outlier Detection
+* Data Type Correction
+* Feature Extraction
 
+# Exploratory Data Analysis
+I looked at the distributions of the data and the value counts for the various categorical variables. Below are a few highlights from the pivot tables.
+
+![image](https://user-images.githubusercontent.com/75175081/122672328-4503c600-d1f5-11eb-8ebc-527c48a06abf.png)
+![image](https://user-images.githubusercontent.com/75175081/122672333-4a611080-d1f5-11eb-8c1f-3a8b2666596c.png)
+
+# Modeling
+* Split the data into train and tests sets with a test size of 25%.
+* I tried three different models: Support vector machine, Decision Tree Model, and Random Forest Model.
+* Evaluated them using AUC (Area Under ROC Curve). 
+* I chose AUC because it is relatively easy to interpret model performance.
+
+# Evaluation
+* The evaluation metric that be used is AUC (Area Under ROC Curve).
+* The Random Forest model has better performence than the other approaches on the test and validation sets.
+
+![image](https://user-images.githubusercontent.com/75175081/122672450-be031d80-d1f5-11eb-94a1-f25e99a2cf18.png)
+
+# Summary
+* Machine learning enables decision makers to predict customer churn using company-owned historical data.
+* The evaluation metric that be used is AUC (Area Under ROC Curve).
+* I tried three different models: Support vector machine, Decision Tree Model, and Random Forest Model.
+* The Random Forest model has better performence than the other approaches on the test and validation sets.
 
